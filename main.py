@@ -1,6 +1,7 @@
 import tkinter as tk
 from grade import gradefuncao
 from intregalizacaobuttons import realocar
+from planilha import escolherplanilha
 
 
 
@@ -59,7 +60,7 @@ button2 = tk.Button(button_frame, text="Abrir planilha", command=lambda: on_butt
 button2.pack(fill=tk.X, padx=5, pady=10)
 
 # Botão 3 (adicional)
-button3 = tk.Button(button_frame, text="Selecionar planilha", command=lambda: on_button_click(label, "Redirecionado para Opção 3"), bg="green", fg="white", width=button_width, height=button_height)
+button3 = tk.Button(button_frame, text="Selecionar planilha", command=lambda: on_button_click(escolherplanilha()), bg="green", fg="white", width=button_width, height=button_height)
 button3.pack(fill=tk.X, padx=5, pady=10)
 
 # Botão 4 (adicional)
