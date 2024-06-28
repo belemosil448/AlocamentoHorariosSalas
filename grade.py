@@ -30,7 +30,7 @@ def gradefuncao(root):
     
     first_cell = grid_frame.grid_slaves(row=0, column=1)[0]
     first_cell.config(text="DIA")
-    first_cell = grid_frame.grid_slaves(row=0, column=2)[0] 
+    first_cell = grid_frame.grid_slaves(row=0, column=2)[0]
     first_cell.config(text="DIA")
     first_cell = grid_frame.grid_slaves(row=0, column=3)[0]
     first_cell.config(text="DIA")
