@@ -18,7 +18,7 @@ def gradefuncao(root):
 
     #dias
     first_cell = grid_frame.grid_slaves(row=1, column=0)[0]
-    first_cell.config(text="SEGUNDA")
+    first_cell.config(text="SEGUNDA.1")
     first_cell = grid_frame.grid_slaves(row=2, column=0)[0]
     first_cell.config(text="TERÇA")
     first_cell = grid_frame.grid_slaves(row=3, column=0)[0]
