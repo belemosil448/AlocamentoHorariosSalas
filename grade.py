@@ -29,29 +29,29 @@ def gradefuncao(root):
     first_cell.config(text="SEXTA")
     
     first_cell = grid_frame.grid_slaves(row=0, column=1)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="1")
     first_cell = grid_frame.grid_slaves(row=0, column=2)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="2")
     first_cell = grid_frame.grid_slaves(row=0, column=3)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="3")
     first_cell = grid_frame.grid_slaves(row=0, column=4)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="4")
     first_cell = grid_frame.grid_slaves(row=0, column=5)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="5")
     first_cell = grid_frame.grid_slaves(row=0, column=6)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="6")
     first_cell = grid_frame.grid_slaves(row=0, column=7)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="7")
     first_cell = grid_frame.grid_slaves(row=0, column=8)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="8")
     first_cell = grid_frame.grid_slaves(row=0, column=9)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="9")
     first_cell = grid_frame.grid_slaves(row=0, column=10)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="10")
     first_cell = grid_frame.grid_slaves(row=0, column=11)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="11")
     first_cell = grid_frame.grid_slaves(row=0, column=12)[0]
-    first_cell.config(text="DIA")
+    first_cell.config(text="12")
     
     
     # Centraliza a grade na janela principal
